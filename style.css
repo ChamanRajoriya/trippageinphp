@@ -1,0 +1,58 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+max-width: 80%;
+font-family: 'Sriracha', cursive;
+padding :19px;
+margin:auto;
+}
+.container h1,p{
+    text-align: center;
+
+}
+p{
+    font-size: 19px;
+}
+.container h1{
+    font-size: 40px;
+}
+.thanks{
+    color: green;
+    font-size: 20px;
+}
+input,textarea {
+    width: 80%;
+    font-family: 'Sriracha', cursive;
+    margin: 11px 0px;
+    padding: 7px;
+    font-size: 25px;
+    outline:none;
+    
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+  form{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .btn{
+    font-size: 20px;
+color: white;
+background: purple;
+padding: 7px 12px;
+border: 2px solid;
+font-family: 'Sriracha', cursive;
+cursor: pointer;
+border-radius: 14px;
+  }
+.image{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+   opacity: 0.9;
+}
